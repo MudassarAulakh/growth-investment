@@ -23,9 +23,9 @@ const NavBar = () => {
 
         <Link to="/login" className="cursor-pointer">Sign In</Link>
 
-        <button className="bg-[#A0F000] px-6 cursor-pointer py-4 rounded-full hover:bg-[#BBFE59]">
+        <Link to="/individual" className="bg-[#A0F000] px-6 cursor-pointer py-4 rounded-full hover:bg-[#BBFE59]">
           Create Account
-        </button>
+        </Link>
       </div>
     </nav>
   );
